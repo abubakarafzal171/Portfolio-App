@@ -25,7 +25,7 @@ const Main = () => {
     });
   });
   return (
-    <div className="w-screen h-full md:h-[100vh] flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12 lg:gap-20 px-8 py-8 md:py-2">
+    <div className="w-screen h-full md:h-[100vh] flex flex-col-reverse md:flex-row justify-center items-center gap-8 md:gap-12 lg:gap-20 px-8 py-8 md:py-2">
       <div className="left_part">
         <img
           src={profile_img}
