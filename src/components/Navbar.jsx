@@ -5,7 +5,7 @@ const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
     <>
-      <div className="w-full h-[8vh] flex justify-start sm:justify-between px-7 items-center">
+      <div className=" h-[8vh] overflow-x-hidden flex justify-start sm:justify-between px-7 items-center">
         <div className="left-part  flex justify-between gap-2 items-center">
           <Link to={'/'} className="logo cursor-pointer flex justify-between  gap-1 items-center">
             <div className="rounded-full bg-[#eea302] h-6 w-6"></div>
